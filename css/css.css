@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    width: 50%;
+    margin: auto;
+    display: flex;
+   justify-content: center;
+
+
+}
+
+ul li a{
+    color: black;
+}
+.nav-link{
+  margin: 8px;
+}
+
+#icons{
+    width: 15%;
+}
+
+
+
+#shoes{
+
+    margin-left:40px;
+    font-size: 40px;
+    font-weight: 700;
+    color:#c72092;
+    
+}
+#s{
+   color: #6c14d0;
+   text-decoration: underline;
+}
+
+.item h1{
+    background-image: linear-gradient(to right,#c72092 , #6c14d0);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Set text color to transparent */
+    font-weight: 640;
+    font-size: 75px;
+}
+
+header{
+
+    background-image: url(../images/bg1.png);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.my-4{
+
+
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.item{
+   margin-top: 180px;
+}
+
+.btun{
+    background-image: linear-gradient(to right,#c72092 , #964aee);
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border:solid transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.social-icon i{
+    margin : 10px;
+}
+
+section .pro , .about{
+    background-image: linear-gradient(to right,#c72092 , #6c14d0);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    margin: 35px;
+    font-size: 70px;
+}
+
+.card-title{
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.price{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.card-text , .content p{
+    color:#91919191;
+}
+
+.products_star , .customer_star  , .content i{
+    color:orange;
+}
+
+.buttn{
+    background: linear-gradient(to right, #c72092 , #6c14d0);
+    width: 115px;
+    height: 40px;
+    border: solid transparent;
+   
+}
+
+
+.card{
+    box-shadow: 0 0 8px #6c14d0;
+    background: #f6f6f6;
+    
+}
+.contain{
+    background-color: rgb(247, 244, 244);
+
+}
+
+.layer{
+
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    position : absolute;
+    top:0;
+    left :0;
+    right: 350;
+    bottom: 0;
+    display: none;
+
+}
+
+.card-img-top{
+    transition : transform 1.4s;
+    transition-delay: 0.5s;
+
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: right 1s , display 1s;
+
+
+}
+
+.contain:hover .layer{
+    /* transform : translate(0) */
+    right: 0;
+    display : block;
+   
+}
+
+.spa{
+     color: black;
+}
+
+ i:hover{
+ color: rgb(237, 94, 178);
+}
+
+.pictures img{
+    background-image: linear-gradient(to right,#c72092 , #964aee);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding:3px;
+
+}
+
+.pictures img:hover{
+    cursor: pointer;
+}
+
+.main_pic{
+    box-shadow:0 0 8px #6c14d0;
+    border-radius: 10px;
+}
+
+.main_pic img{
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.description{
+    box-shadow:0 0 8px #e63fa6;
+    border-radius: 10px;
+    
+}
+
+.description p{
+    padding:15px;
+}
+
+.shop{
+
+    box-shadow:0 0 8px #6f0446;
+    border : solid transparent;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    margin : auto;
+
+}
+.shop:hover{
+    background-color: rgb(174, 30, 174);
+    color : white;
+}
+.img-fluid{
+    transition: transform 0.5s;
+}
+
+.img-fluid:hover{
+
+    transform: scale(1.1);
+}
+
+.ic{
+    
+    font-size: 50px;
+    margin : 15px
+}
+
+.content{
+    text-align: center;
+}
+
+.bg{
+    background-image: url(../images/loging_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.username , .password{
+    display: flex;
+    flex-direction : column ;
+}
+
+
+.forget{
+
+    margin-left: 210px;
+    cursor:pointer;
+}
+
+.input{
+
+    background: #f6f6f6;
+    height: 35px;
+    border-radius: 5px; 
+    border: 2px solid purple;   
+
+}
+
+.buttn{
+    background: linear-gradient(to right, #c72092 , #6c14d0);
+
+}
+
+.for{
+
+    margin-left: 200px;
+}
+
+.contact-icons{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.img_size{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+.item1 a i{
+margin-right: 3px;
+}
+
+.item1 h2 , .item2 h2 , .item3 h2, .item4 h2, .item5 h2 {
+    color: rgb(98, 18, 132);
+    font-weight: 200;
+    margin: 20px;
+}
+
+footer{
+    background: #f3f1f1;
+}
+
+.item1 a , .item2 a , .item3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.item2 p , .item3 p{
+    margin-left: 50px;
+}
+.social_link a{
+    color: black;
+    margin : 4px;
+
+}
+
+.bttn{
+    background-image: linear-gradient(to right,#c72092 , #964aee);
+    width: 100px;
+    height: 28px;
+    border-radius: 50px;
+    border:solid transparent;
+    color: white;
+    margin: 8px;
+}
+
